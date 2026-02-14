@@ -1,26 +1,46 @@
-> Exploratory data analysis and SQL-based investigation of bike rental behaviour to identify peak usage patterns and long-duration anomalies.
+Perfect — you’re **very close to the final, professional README**.
+I’ll now give you the **clean, corrected, and recruiter-ready final version** with:
 
+* fixed markdown structure
+* improved wording (UK data-analyst tone)
+* corrected folder name (`data/` not `dataset/`)
+* properly closed code block
+* polished intro summary
+
+---
+
+# ✅ FINAL UPDATED README (copy-paste this)
+
+```md
+> Exploratory data analysis and SQL-based investigation of bike rental behaviour to uncover peak usage patterns, user differences, and long-duration anomalies that inform operational decision-making.
 
 # Bike Rental Usage Analysis & Outlier Investigation
 
 ## Objective
-Analyse bike rental behaviour to identify peak usage patterns, understand user differences, and investigate factors associated with unusually long rental durations.
+Analyse bike rental behaviour to:
+
+- Identify **peak usage patterns across time**
+- Understand **rental duration differences between user groups**
+- Detect **unusually long rentals** using statistical thresholds
+- Investigate operational factors associated with long-duration trips
+
+This project demonstrates how exploratory analytics can generate **practical, data-driven business insights**.
 
 ---
 
 ## Dataset
-- Bike rental trip records with temporal, user, and station information  
-- Additional metadata describing station and rental characteristics  
-- Data cleaning performed to remove missing or invalid durations  
+- Bike rental trip records containing **temporal, user, and station attributes**  
+- Supplementary metadata describing **rental conditions and station details**  
+- Data cleaning performed to remove **missing or invalid duration values**
 
 ---
 
 ## Methodology
-- Exploratory Data Analysis using **Pandas and Matplotlib**  
-- Identification of peak rental hours and usage behaviour  
+- Exploratory Data Analysis using **Pandas** and **Matplotlib**  
+- Identification of **peak hourly demand patterns**  
 - Statistical comparison of **rental duration by user type**  
-- Detection of unusually long rentals using the **95th percentile rule**  
-- Investigation of long-duration trips using **SQL queries**  
+- Detection of long rentals using the **95th percentile rule**  
+- Investigation of anomalies via **SQL queries (SQLite)**  
 - Visualisation of behavioural patterns for interpretation  
 
 ---
@@ -42,20 +62,38 @@ Analyse bike rental behaviour to identify peak usage patterns, understand user d
 ---
 
 ## Tech Stack
-Python · Pandas · Matplotlib · SQLite · SQL  
+**Python:** pandas, numpy  
+**Visualisation:** matplotlib  
+**Querying:** SQLite, SQL  
+**Environment:** Jupyter Notebook  
 
 ---
 
 ## Business Insight
-Long-duration rentals are disproportionately associated with **specific user groups and stations**, suggesting opportunities for targeted pricing, operational monitoring, and demand management.
+Long-duration rentals are disproportionately associated with **specific user groups and stations**, indicating opportunities for:
+
+- Targeted **pricing optimisation**
+- Improved **operational monitoring**
+- Data-driven **resource allocation and planning**
+
+These findings highlight the role of **exploratory analytics in real-world decision support**.
 
 ---
 
 ## Project Structure
-- Notebook: `notebooks/bike_rental_usage_analysis.ipynb`  
-- Data: `dataset/`  
-- Visuals: `assets/`  
-- Report: `reports/bike_rental_report.html`  
+
+```
+
+qub-bike-rental-usage-analysis/
+│
+├── data/                # Raw datasets
+├── notebooks/           # Analysis notebook
+├── assets/              # Generated visualisations
+├── reports/             # Exported HTML report
+├── requirements.txt     # Python dependencies
+└── README.md
+
+````
 
 ---
 
@@ -63,12 +101,22 @@ Long-duration rentals are disproportionately associated with **specific user gro
 
 To reproduce this analysis locally:
 
-bash
+```bash
 git clone <repo-link>
 cd qub-bike-rental-usage-analysis
 pip install -r requirements.txt
 jupyter notebook
+````
+
+Open the notebook inside the **`notebooks/`** folder and run all cells.
+
+---
 
 ## Author
-**Gaurav Singh Airy**  
+
+**Gaurav Singh Airy**
 MSc Data Analytics — Queen’s University Belfast
+[LinkedIn](https://www.linkedin.com/in/gaurav-airy-5b91b8193)
+
+```
+
